@@ -1,0 +1,63 @@
+body{
+    background-image: url("../public/Free Desktop Kids Wallpapers-5.jpg");
+}
+.container{
+    max-width: 800px;
+    margin: 100px auto 0 auto;
+    color:bisque;
+}
+h1, .title {
+    text-align: center;
+    color:bisque;
+    margin-bottom: 10px;
+}
+.todo{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px double dodgerblue;
+    color: rgb(198, 162, 232);
+    font-weight : bold;
+}
+.todos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+.deleteItem {
+    position: absolute;
+right: 5px;
+top: 10px;
+width: 25px;
+height: 25px;
+}
+.input {
+width:96%;
+outline: none;
+border: 2px solid dodgerblue;
+padding: 10px;
+font-size: 20px;
+border-radius: 5px;
+}
+.clear{
+    outline: none;
+    background-color: rgb(104, 159, 218);
+    border-radius: 5px;
+    border: 2px double dodgerblue;
+    width: 100px;
+    font-size: 20px;
+    color:bisque;
+    cursor: pointer;
+    
+}
